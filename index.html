@@ -1,13 +1,41 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glovo Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Order Food Online</h1>
+            <p>Get your favorite food delivered to your doorstep</p>
+            <button class="cta">Order Now</button>
+        </section>
+        <section class="restaurant-list">
+            <h2>Popular Restaurants</h2>
+            <ul>
+                <!-- restaurant items will be generated dynamically -->
+            </ul>
+        </section>
+        <section class="cart">
+            <h2>Cart</h2>
+            <ul>
+                <!-- cart items will be generated dynamically -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>
